@@ -5,7 +5,7 @@
 body{
 	width: 1500px;
 	background: radial-gradient( #f5af15, #fb9590, #ff61ae);
-    background-size: 600% 600%;
+    background-size: 300% 300%;
 
     -webkit-animation: AnimationOne 15s ease infinite;
     -moz-animation: AnimationTwo 10s ease infinite;
