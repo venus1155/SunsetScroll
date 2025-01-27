@@ -1,7 +1,6 @@
 @font-face{
    font-family:'ArtNuvo';
-   src: url(./art-nuvo-webfont.woff) format('woff');
- }
+   src: url(../fonts/art-nuvo-webfont.woff) format('woff'); }
 
 body{
 	width: 1500px;
