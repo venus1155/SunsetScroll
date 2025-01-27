@@ -1,0 +1,148 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.container {
+	display: flex;
+	background-color: #FE769F;
+	width: 18000px;
+	height:1600px;
+}
+
+div.one{
+	background: #F8B424;
+	background-size: 150% 150%;
+	background: linear-gradient(to right, #F8B424 0%, #FB9590 44%, #FE769F 80%);
+	width: 100%;
+	animation: gradient 4s ease infinite; 
+}
+
+div.two{
+	background: #FD7D9C;
+	background: linear-gradient(to right, #FE769F 0%, #FE5D8D 42%, #C296C7 100%);
+	width: 100%;
+}
+
+div.three{
+	background: #C296C7;
+	background: linear-gradient(to right, #C296C7 0%, #D9ADE5 30%, #F1C3FF 65%, #E494A8 100%);
+	width: 100%;
+}
+
+div.four{
+	background: #E495AB;
+	background: linear-gradient(to right, #E495AB 0%, #886C84 40%, #715B6E 50%, #C7694C 80%, #E2743F 95%);
+	width: 100%;
+}
+
+div.five{
+	background: #E2743F;
+	background: linear-gradient(to right, #E2743F 0%, #E5994E 14%, #E5A067 37%, #BFAF8E 52%, #697C8D 71%, #5C7280 83%, #354B60 95%, #354B60 100%);
+	width: 100%;
+}
+
+
+div.six{
+	background: rgb(53,75,96);
+	background: linear-gradient(90deg, rgba(53,75,96,1) 20%, rgba(28,111,189,1) 44%, rgba(120,175,228,1) 63%, rgba(224,162,113,1) 82%);
+	width: 100%;
+}
+div.seven{
+	background: rgb(224,162,113);
+	background: linear-gradient(90deg, rgba(224,162,113,1) 4%, rgba(246,108,41,1) 40%, rgba(92,62,111,1) 63%, rgba(13,97,105,1) 85%);
+	width: 100%;
+}
+
+
+p{
+	font-family:'Gugi',sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 350px;
+}
+
+.pic1{
+	font-size: 50pt;
+	margin-top: 30vh;
+	left: 3vw; 
+	background: transparent;
+	position: relative;
+	display: inline-block;
+
+}
+
+/*
+.pic1:hover:after{
+
+  		content: url(../img/lagossunset.jpg);
+  		max-height: 500px;
+    	max-width: 500px;
+    	display: block;
+    	position: relative;
+   		left: 300px; 
+    	top: 50px;  	
+} 
+*/
+
+.pic1 img {
+    display: none; /* Hide the image by default */
+    max-height: 500px; /* Maximum height for the image */
+    max-width: 500px; /* Maximum width for the image */
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    border: 3px solid #C296C7; /* Add a colored border around the image */
+    border-radius: 8px
+}
+
+.pic1:hover img {
+    display: block; /* Show the image on hover */
+}
+
+
+
+/*
+body{
+	width: 1500px;
+	background: radial-gradient( #f5af15, #fb9590, #ff61ae);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationOne 15s ease infinite;
+    -moz-animation: AnimationTwo 10s ease infinite;
+    animation: AnimationThree 15s ease infinite;
+
+    overflow-y: hidden;
+   }
+
+@keyframes AnimationOne {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationTwo {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationThree {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+*/
+
+

@@ -1,0 +1,84 @@
+@font-face{
+   font-family:'ArtNuvo';
+   src: url(../fonts/art-nuvo-webfont.woff) format('woff');
+ }
+
+body{
+	width: 1500px;
+	background: radial-gradient( #f5af15, #fb9590, #ff61ae);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationOne 15s ease infinite;
+    -moz-animation: AnimationTwo 10s ease infinite;
+    animation: AnimationThree 15s ease infinite;
+
+    overflow-y: hidden;
+   }
+
+@keyframes AnimationOne {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationTwo {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationThree {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+a.about{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 180px;
+
+}
+a.credits{
+	
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+h1{
+font-family: 'ArtNuvo'; 
+font-size: 180px;
+margin-top: 300px;
+margin-left: 230px;
+
+}
+
+h2{
+	font-family: 'Gruppo', sans-serif;
+	font-size: 30px;
+	margin-left: 230px;
+	text-align: center;
+	padding-top: 5px;
+	color: black;
+}
+
+h3{
+	font-family:'Gugi',sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 230px;
+	padding-top: 0px;
+}
+ul{
+	list-style-type: none;
+}
+
+
+
+
+
+

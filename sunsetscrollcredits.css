@@ -1,0 +1,45 @@
+
+body {
+  background-image: url("../img/miamisunset.jpg");
+  background-size: 1700px 875px;
+  overflow:hidden;
+}
+
+
+
+.container{
+	border: 5px solid #354B60;
+	margin-top: 350px;
+	margin-left: 220px;
+	width: 75%;
+	height: 75%;
+}
+
+p{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	text-align: center;
+
+
+}
+
+a.home{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 180px;
+
+}
+
+a.about{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+ul{
+	list-style-type: none;
+}

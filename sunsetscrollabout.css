@@ -1,0 +1,43 @@
+
+body {
+  background-image: url("../img/lagossunset.jpg");
+  background-size: 1800px 1400px;
+}
+
+
+
+.container{
+	border: 10px solid pink;
+	margin-top: 300px;
+	margin-left: 220px;
+	width: 75%;
+	height: 75%;
+
+
+}
+p{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+a.home{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 180px;
+
+}
+
+a.credits{
+	font-family: Gruppo, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+ul{
+	list-style-type: none;
+}
